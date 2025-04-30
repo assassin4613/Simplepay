@@ -8,8 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
+
+# 깃헙 페이지로 올릴려고 할때는 빌드 폴더인 dist폴더를 허용해줘야한다.
+# dist
+# dist-ssr
 *.local
 
 # Editor directories and files
