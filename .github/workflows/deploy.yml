@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 반드시 이 설정이 존재해야 Git push가 허용됨.
 
     steps:
       - name: Checkout code
